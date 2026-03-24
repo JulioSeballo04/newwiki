@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos de Playstation</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #20232a;
+            color: white;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        header img {
+            width: 50px;
+        }
+
+        header h1 {
+            font-size: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 220px 1fr 220px;
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        aside {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+
+        main {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0077cc;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        figure {
+            text-align: center;
+        }
+
+        figure img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #20232a;
+            color: white;
+            margin-top: 20px;
+        }
+
+        /* Responsividade */
+        @media (max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png">
+    <h1>Novo Wikipédia</h1>
+</header>
+
+<div class="container">
+
+    <!-- MENU LATERAL -->
+    <aside>
+        <h2>Jogos Playstation</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/PlayStation_logo.svg" width="100">
+
+        <ul>
+            <li><a href="#rdr2">Red Dead Redemption 2</a></li>
+            <li><a href="#jogabilidade">Jogabilidade</a></li>
+            <li><a href="#personagens">Personagens</a></li>
+        </ul>
+    </aside>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+        <h1 id="rdr2">Red Dead Redemption 2</h1>
+
+        <p>
+            Red Dead Redemption 2 é um jogo de ação-aventura desenvolvido pela Rockstar Games.
+            A história se passa em 1899 e acompanha Arthur Morgan, um fora da lei que luta para sobreviver
+            no fim do Velho Oeste.
+        </p>
+
+        <h2 id="jogabilidade">Jogabilidade</h2>
+        <p>
+            O jogo possui mundo aberto, podendo ser jogado em primeira ou terceira pessoa.
+            O jogador pode explorar, lutar, caçar e interagir com diversos personagens.
+        </p>
+
+        <h2 id="personagens">Personagens</h2>
+        <p>
+            O protagonista é Arthur Morgan, membro da gangue Van der Linde.
+            Outros personagens importantes incluem Dutch, John Marston e Sadie Adler.
+        </p>
+
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg">
+            <figcaption>Capa do jogo</figcaption>
+        </figure>
+    </main>
+
+    <!-- ÂNCORAS -->
+    <aside>
+        <h2>Neste artigo</h2>
+        <ul>
+            <li><a href="#rdr2">Início</a></li>
+            <li><a href="#jogabilidade">Jogabilidade</a></li>
+            <li><a href="#personagens">Personagens</a></li>
+        </ul>
+    </aside>
+
+</div>
+
+<footer>
+    
+</footer>
+
+</body>
+</html>
